@@ -44,9 +44,6 @@
   font-family: "Nunito Sans", sans-serif;
   font-size: 22px;
 }
-.features-item-1 > .left > ul > li {
-  list-style: url("https://icons8.com/icon/63262/checkmark");
-}
 .features-item-1 > .left {
   display: flex;
   flex-direction: column;
@@ -96,23 +93,22 @@
 .features-item-2 > .right {
   padding-left: 100px;
 }
-.uim-svg > svg{
-  padding-right: 20px;
+
+.features-feedback {
 }
-.features-feedback{
-  
-}
-.trademark{
+.trademark {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 80%;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
+  height: auto;
 }
-.features-bg{
-  background-color: #8338EC;
+.features-bg {
+  background-color: #8338ec;
   font-family: "Nunito Sans", sans-serif;
+  margin-top: 100px;
 }
 .features-end {
   display: flex;
@@ -120,15 +116,15 @@
   align-items: center;
   width: 70%;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 .end-button {
-  width: 100px;
+  width: 150px;
   height: auto;
   padding: 10px;
   border-radius: 10px;
-  background-color: #30CAE9;
+  background-color: #30cae9;
   color: #fff;
   font-weight: 500;
 }
@@ -138,8 +134,80 @@
   line-height: 1.6;
   font-size: 15px;
   font-weight: 300;
+  font-family: "Nunito Sans", sans-serif;
+}
+.end-text > p {
+  color: #be92f4;
+}
+.features-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding: 50px;
+}
+#carouselExampleControls {
+  width: 80%;
+}
+.feedback-statistical {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  padding: 50px;
+}
+.feedback-statistical > img {
+  margin: 20px;
+}
+.feedback-statistical > p {
+  color: #a7a9c0;
+}
+.feedback-statistical > h3 {
+  color: #343a40;
+}
+.user {
+  display: flex;
+  flex-direction: row;
 }
 
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-text {
+  width: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+  background-color: #f6faff;
+  display: flex;
+}
+.card-title {
+  font-size: 15px;
+  padding: 5px;
+}
+.carousel-inner {
+  padding: 1em;
+}
 
-
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
