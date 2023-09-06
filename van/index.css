@@ -1,0 +1,53 @@
+.container {
+
+    width: 1400px;
+    text-align: center;
+    padding-left: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.container>hr {
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card>.card-body {
+    width: 350px;
+    border: 1px solid black;
+    font-size: 21px;
+    height: 420px;
+    padding: 20px;
+
+
+}
+
+.card>.card-body>.price>.join>button {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.container>.text {
+    width: 1400px;
+    height: 300px;
+    display: flex;
+
+
+}
+
+.container>.text>.text_1 {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container>.card>.card-body>.info>p>span {
+    color: aqua;
+}
