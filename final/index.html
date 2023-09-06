@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peyso</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,800;1,6..12,300&display=swap" rel="stylesheet">
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    /> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="wrapper">
+        <header>
+            <div class="header-block_left">
+                <img src="./img/logo-dark.png" alt="" style="height: 20px;">
+                <img src="" alt="">
+            </div>
+            <div class="header-block_right">
+                <ul>
+                    <li style="color: rgb(160, 86, 160);">Home</li>
+                    <li>About</li>
+                    <li>Feature</li>
+                    <li>Clients</li>
+                    <li>Plans</li>
+                    <li>Contact</li>
+                    
+                </ul>
+                <a class="btt-try">Try it Free</a>
+            </div>
+        </header>
+        <div class="hero-slide">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 545.39 294.79" class='bg'><defs><style>.stars-bg__star{fill:#0971b7;fill-rule:evenodd;}</style></defs><title>Stars-bg</title><g id="06bfc7e1-b704-4078-98ce-2308fc1c2fe9" data-name="Layer 2"><g id="c0153062-95a7-412f-be95-4bccb94029e9" data-name="Layer 1"><path class="stars-bg__star stars-bg__blink-1" d="M4.84,3.53A1.18,1.18,0,1,0,3.66,2.35,1.17,1.17,0,0,0,4.84,3.53"/><path class="stars-bg__star stars-bg__blink-2" d="M512.9,145.88a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/><path class="stars-bg__star stars-bg__blink-3" d="M411,55.7a1.18,1.18,0,1,0,1.18,1.18A1.17,1.17,0,0,0,411,55.7"/><path class="stars-bg__star stars-bg__blink-2" d="M135.79,27.52A1.18,1.18,0,1,0,137,28.7a1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M100.53,94.49a1.18,1.18,0,1,0,1.18,1.18,1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M16.85,131.35A1.18,1.18,0,1,0,18,132.53a1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-3" d="M533.24,0a1.18,1.18,0,1,0,1.18,1.18A1.18,1.18,0,0,0,533.24,0"/><path class="stars-bg__star stars-bg__blink-1" d="M340.44,48.52a1.18,1.18,0,1,0-1.18,1.18,1.18,1.18,0,0,0,1.18-1.18"/><path class="stars-bg__star stars-bg__blink-2" d="M200.35,64.06a1.18,1.18,0,1,0,1.18,1.18,1.17,1.17,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-2" d="M159.9,151.18a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M544.22,203.63a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/><path class="stars-bg__star stars-bg__blink-3" d="M135.79,188.61a1.18,1.18,0,1,0,1.18,1.18,1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M1.18,292.44a1.18,1.18,0,1,0,1.18,1.18,1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-2" d="M478.61,171a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M340.44,209.6a1.18,1.18,0,1,0-1.18,1.18,1.18,1.18,0,0,0,1.18-1.18"/><path class="stars-bg__star stars-bg__blink-3" d="M200.35,225.15a1.18,1.18,0,1,0,1.18,1.18,1.17,1.17,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-1" d="M413.82,115.21a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/><path class="stars-bg__star stars-bg__blink-2" d="M100.53,255.58a1.18,1.18,0,1,0,1.18,1.18,1.18,1.18,0,0,0-1.18-1.18"/><path class="stars-bg__star stars-bg__blink-3" d="M34.65,223.73a1.18,1.18,0,1,0-1.18-1.18,1.18,1.18,0,0,0,1.18,1.18"/></g></g></svg>
+            <div class="content-heroSlide">
+                <div class="logo-content">
+                    <span><img src="./img/logo.png" alt=""></span>
+                </div>
+                <h3>Hello, Everyone !</h3>
+                <h1 style="font-size: 31px;">We Provide Best Solution</h1>
+                <p class="hero-p">Do one chap gutted mate cheesed off dropped a lorem ipsum dolor sit amet clanger crikey cheeky a Queen's English bog blimey ummm I'm telling.!</p>
+                <div class="hero-btt">
+                    <a href="#" class="btt-contact">Contact Us</a>
+                    <a href="#" class="btt-more">Discover More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-web">
+            <div class="digital-web">
+                <h3 style="font-size: 27px;">A digital web design studio creating modern & engaging online</h3>
+                <p class="info-web-p">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages new common will be more regular than the existing If several is more simple and regular than that of the individual languages new common will be more regular than the existing</p>
+            </div>
+            <div class="info-icon">
+                <div class="row">
+                    <div class="row-item">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-ruler fa-rotate-180 fa-lg"></i>
+                        </div>
+                        <div class="item-name">Web Designing</div>
+                        <div class="item-tittle"><p>If several languages coalesce, the grammar of the resulting language is more regular than that of the individual</p></div>
+                    </div>
+                    <div class="row-item">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-repeat fa-lg"></i>
+                        </div>
+                        <div class="item-name">Programming</div>
+                        <div class="item-tittle"><p>To achieve this, it would be necessary to have uniform more common several languages coalesce</p>
+    
+                        </div>
+                    </div>
+                    <div class="row-item">
+                        <div class="item-icon">
+                            <i class="fa-solid fa-desktop fa-lg"></i>
+                        </div>
+                        <div class="item-name">Software Development</div>
+                        <div class="item-tittle"><p>For science, music, sport, etc, Europe uses the same vocabulary only differ in their pronunciation.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header + digital dung -->
+
+    <!-- Features start -->
+    <div class="features-item">
+        <div class="features-title">
+          <span class="features"> Features </span>
+          <span class="features-key">Key features of the product</span>
+        </div>
+        <div class="features-item-1">
+          <div class="left">
+            <h4>Improve your Marketing business</h4>
+            <p>
+              If several languages coalesce, the grammar of the resulting language
+              is more regular.
+            </p>
+            <div>
+              <p class="list-item-1">
+                <img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/color/48/checked--v1.png"
+                  alt="checked--v1"
+                />
+                <span class="icon-tick">Donec vitae sapien ut</span>
+              </p>
+              <p class="list-item-2">
+                <img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/color/48/checked--v1.png"
+                  alt="checked--v1"
+                />
+                <span class="icon-tick">In enim justo, rhoncus imperdiet</span>
+              </p>
+              <p class="list-item-3">
+                <img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/color/48/checked--v1.png"
+                  alt="checked--v1"
+                />
+                <span class="icon-tick"> Maecenas nec odio et</span>
+              </p>
+            </div>
+            <a href="#">Learn more..</a>
+          </div>
+          <div class="right">
+            <img
+              src="https://themesdesign.in/peyso/layout/images/features/img-1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="features-item-2">
+          <div class="left">
+            <img
+              src="https://themesdesign.in/peyso/layout/images/features/img-2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="right">
+            <h4>Improve your Marketing business</h4>
+            <p>
+              It will be as simple as in fact, it will be Occidental. To an
+              English person, it will seem like simplified
+            </p>
+            <p>
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+              consectetur velit
+            </p>
+            <a href="#">Learn more..</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="features-feedback">
+        <div class="feedback-statistical">
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/ios-filled/50/7950F2/chat-message--v1.png"
+            alt="chat-message--v1"
+          />
+          <h3>2,200 <sup>+</sup></h3>
+          <h3>Satisfied Clients</h3>
+          <p>
+            If several languages coalesce, the grammar of the resulting language
+            is more simple and regular than that of the individual
+          </p>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">
+                      " To achieve this, it would be necessary to have uniform
+                      grammar, pronunciation and more common words. If several
+                      languages of the resulting language."
+                    </p>
+                    <div class="user">
+                      <h5 class="card-title">Clara Searcy</h5>
+                      <div>
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                      </div>
+                    </div>
+  
+                    <span>- Preyso User</span>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <div class="card-body">
+                    <p class="card-text">
+                      " If several It will be as simple as Occidental; it will be
+                      Occidental. To an English person, it will seem like
+                      simplified, If several languages of the resulting language "
+                    </p>
+                    <div class="user">
+                      <h5 class="card-title">Alfredo Williams</h5>
+                      <div>
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                      </div>
+                    </div>
+                    <span>- Preyso User</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">
+                      " If several It will be as simple as Occidental; it will be
+                      Occidental. To an English person, it will seem like
+                      simplified, If several languages of the resulting language "
+                    </p>
+                    <div class="user">
+                      <h5 class="card-title">Alfredo Williams</h5>
+                      <div>
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                      </div>
+                    </div>
+                    <span>- Preyso User</span>
+                  </div>
+                </div>
+                <div class="card d-none d-md-block">
+                  <div class="card-body">
+                    <p class="card-text">
+                      " It will be as simple as Occidental; in fact, it will be
+                      Occidental. To an English person, it will seem like
+                      simplified, If several languages of the resulting language"
+                    </p>
+                    <div class="user">
+                      <h5 class="card-title">James Vazquez</h5>
+                      <div>
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                        <img
+                          width="10"
+                          height="10"
+                          src="https://img.icons8.com/fluency/48/star--v1.png"
+                          alt="star--v1"
+                        />
+                      </div>
+                    </div>
+                    <span>- Preyso User</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  
+      <div class="trademark">
+        <img
+          src="https://themesdesign.in/peyso/layout/images/clients/1.png"
+          alt=""
+        />
+        <img
+          src="https://themesdesign.in/peyso/layout/images/clients/3.png"
+          alt=""
+        />
+        <img
+          src="https://themesdesign.in/peyso/layout/images/clients/4.png"
+          alt=""
+        />
+        <img
+          src="https://themesdesign.in/peyso/layout/images/clients/6.png"
+          alt=""
+        />
+      </div>
+      <div class="features-bg">
+        <div class="features-end">
+          <div class="end-text">
+            <h3>Build your dream website today</h3>
+            <p>If several languages coalesce, the grammar of the resulting</p>
+          </div>
+          <button class="end-button">Get Started</button>
+        </div>
+      </div>
+      <!-- Features end -->
+
+      <!-- plan van -->
+      <!-- start plans -->
+    <div class="container">
+        <h3>Plan</h3>
+        <h1>Our Pricing</h1>
+        <hr>
+        <div class="card" style="flex-direction: row;">
+            <!-- start economy -->
+            <div class="card-body">
+                <i class="fa-solid fa-cube"></i>
+                <h3>Economy</h3>
+                <div class="info">
+                    <p>Storage : <span class="text">10 GB</span></p>
+                    <p>Bandwidth : <span class="text">500 GB</span></p>
+                    <p>Domain : <span class="text">No</span></p>
+                    <p>Support : <span class="text">No</span></p>
+                </div>
+                <div class="price">
+                    <h3>
+                        <sup><small>$</small></sup>19 / <span>Month</span>
+                    </h3>
+                    <div class="join">
+                        <button type="button">Join now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end economy -->
+
+            <!-- start premium -->
+            <div class="card-body">
+                <i class="fa-solid fa-shield"></i>
+                <h3>Premium</h3>
+                <div class="info">
+                    <p>Storage : <span class="text">20 GB</span></p>
+                    <p>Bandwidth : <span class="text">800 GB</span></p>
+                    <p>Domain : <span class="text">Yes</span></p>
+                    <p>Support : <span class="text">Yes</span></p>
+                </div>
+                <div class="price">
+                    <h3>
+                        <sup><small>$</small></sup>29 / <span>Month</span>
+                    </h3>
+                    <div class="join">
+                        <button type="button">Join now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end premium -->
+
+            <!-- start developer -->
+            <div class="card-body">
+                <i class="fa-solid fa-user-secret"></i>
+                <h3>Developer</h3>
+                <div class="info">
+                    <p>Storage : <span class="text">30 GB</span></p>
+                    <p>Bandwidth : <span class="text">Unlimited</span></p>
+                    <p>Domain : <span class="text">Yes</span></p>
+                    <p>Support : <span class="text">Yes</span></p>
+                </div>
+                <div class="price">
+                    <h3>
+                        <sup><small>$</small></sup>39 / <span>Month</span>
+                    </h3>
+                    <div class="join">
+                        <button type="button">Join now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end developer -->
+
+        <!-- start fag -->
+        <div class="text">
+            <div class="text_1">
+                <div class="text-body">
+                    <h5>What is Lorem Ipsum ?</h5>
+                    <p>If several languages coalesce, the grammar of the resulting
+                        language is more simple and regular than that of the individual</p>
+                </div>
+                <div class="text-body">
+                    <h5>What is Lorem Ipsum ?</h5>
+                    <p>If several languages coalesce, the grammar of the resulting
+                        language is more simple and regular than that of the individual</p>
+                </div>
+            </div>
+            <div class="text_1">
+                <div class="text-body">
+                    <h5>What is Lorem Ipsum ?</h5>
+                    <p>If several languages coalesce, the grammar of the resulting
+                        language is more simple and regular than that of the individual</p>
+                </div>
+                <div class="text-body">
+                    <h5>What is Lorem Ipsum ?</h5>
+                    <p>If several languages coalesce, the grammar of the resulting
+                        language is more simple and regular than that of the individual</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- end plan -->
+
+
+    <!-- contact -->
+    <section class="contact">
+        <div class="container">
+            <div class="content">
+                <p class="text">contact</p>
+                <h4 class="heading">Have any Questions ?</h4>
+                <span class="arrow text-center">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </span>
+                <div class="contact-form mt-5">
+                    <div class="row">
+                        <div class="form-group col-lg-6">
+                            <label for="name">Name</label>
+                            <input type="text" id="for" placeholder="Enter your name...">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="name">Email address</label>
+                            <input type="text" id="for" placeholder="Enter your email...">
+                        </div>
+                        <div class="form-subject col-lg-12">
+                            <label for="name">Subject</label>
+                            <input type="text" id="for" placeholder="Enter Subject...">
+                        </div>
+                        <div class="form-message col-lg-12">
+                            <label for="name">Message</label>
+                            <input type="text" id="for" placeholder="Enter Message...">
+                        </div>
+                    </div>
+                    <div class="btn btn-send">
+                        <span>Send message</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer" style="background-color:#343a40">
+        <div class="container">
+            <div class="footer-contact">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="logo">
+                            <a href="" title="" class="image mb-3"><img src="./img/z4662395587863_0c8cc238cdae689f09a87a530d2b0f39.jpg" alt=""></a>
+                            <div class="title">Bootstrap 5 Landing Page Template</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="link">
+                            <div class="title mb-4">Links</div>
+                            <ul>
+                                <li class="mb-2"><a href="" title="">Home</a></li>
+                                <li class="mb-2"><a href="" title="">About us</a></li>
+                                <li class="mb-2"><a href="" title="">Careers</a></li>
+                                <li class=""><a href="" title="">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="resouces">
+                            <div class="title mb-4">Resources</div>
+                            <ul>
+                                <li class="mb-2"><a href="" title="">Help Center</a></li>
+                                <li class="mb-2"><a href="" title="">Privacy Policy</a></li>
+                                <li class=""><a href="" title="">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="social">
+                            <div class="title mb-4">Social</div>
+                            <div class="thumb d-flex">
+                                <a href="" title="" class="image text-center"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="" title="" class="image text-center"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="" title="" class="image text-center"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="" title="" class="image text-center"><i class="fa-brands fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-copyright" style="background-color:#2f353a">
+        <div class="container ">
+            <div class="title text-center">2023 © Peyso. Create by Themesdesign</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
